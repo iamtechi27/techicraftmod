@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "techicraftmod:obsidianpressureplate_up" },
+        "powered=true": { "model": "techicraftmod:obsidianpressureplate_down" }
+    }
+}

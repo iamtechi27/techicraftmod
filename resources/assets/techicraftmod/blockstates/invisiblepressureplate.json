@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "techicraftmod:invisiblepressureplate_up" },
+        "powered=true": { "model": "techicraftmod:invisiblepressureplate_down" }
+    }
+}

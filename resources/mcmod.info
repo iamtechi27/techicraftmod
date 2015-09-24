@@ -1,0 +1,16 @@
+[
+{
+  "modid": "techicraftmod",
+  "name": "techicraftmod",
+  "description": "techicraftmod by iamtechi27",
+  "version": "alpha",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["iamtechi27"],
+  "credits": "//TODO",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
