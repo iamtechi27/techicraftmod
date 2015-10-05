@@ -2,6 +2,7 @@ package com.iamtechi27.techicraftmod;
 
 import com.iamtechi27.techicraftmod.blocks.BlockBonePile;
 import com.iamtechi27.techicraftmod.blocks.BlockCrystalTorch;
+import com.iamtechi27.techicraftmod.blocks.BlockSolidGlass;
 import com.iamtechi27.techicraftmod.blocks.BlockInvisiblePressurePlate;
 import com.iamtechi27.techicraftmod.blocks.BlockObsidianPressurePlate;
 import com.iamtechi27.techicraftmod.blocks.TCMBlocks;
@@ -40,7 +41,8 @@ public class ClientProxy extends CommonProxy{
 		renderItem.getItemModelMesher().register(Item.getItemFromBlock(TCMBlocks.obsidianpressureplate), 0, new ModelResourceLocation(techicraftmod.MODID + ":" + ((BlockObsidianPressurePlate) TCMBlocks.obsidianpressureplate).getName(), "inventory"));
 		renderItem.getItemModelMesher().register(Item.getItemFromBlock(TCMBlocks.invisiblepressureplate), 0, new ModelResourceLocation(techicraftmod.MODID + ":" + ((BlockInvisiblePressurePlate) TCMBlocks.invisiblepressureplate).getName(), "inventory"));
 		renderItem.getItemModelMesher().register(Item.getItemFromBlock(TCMBlocks.crystaltorch), 0, new ModelResourceLocation(techicraftmod.MODID + ":" + ((BlockCrystalTorch) TCMBlocks.crystaltorch).getName(), "inventory"));
-		
+		renderItem.getItemModelMesher().register(Item.getItemFromBlock(TCMBlocks.solidglass), 0, new ModelResourceLocation(techicraftmod.MODID + ":" + ((BlockSolidGlass) TCMBlocks.solidglass).getName(), "inventory"));
+
 		//items
 		renderItem.getItemModelMesher().register(TCMItems.firestaff, 0, new ModelResourceLocation(techicraftmod.MODID + ":" + ((ItemFireStaff) TCMItems.firestaff).getName(), "inventory"));
 
