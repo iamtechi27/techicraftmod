@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 public class techicraftmod {
 	
 	public static final String MODID = "techicraftmod";
-    public static final String VERSION = "8ITB";
+    public static final String VERSION = "8JDB";
     
     @SidedProxy(clientSide="com.iamtechi27.techicraftmod.ClientProxy", serverSide="com.iamtechi27.techicraftmod.CommonProxy")
     public static CommonProxy proxy;
